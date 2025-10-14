@@ -1,0 +1,7 @@
+.menu-links li .active{
+    background-color: #a8acb2;
+    color: white;
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
