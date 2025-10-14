@@ -65,7 +65,7 @@ function ProductDetails() {
                                         {
                                             currentProduct.images.map((img, index) => {
                                                 return (
-                                                    <li key={index} onClick={() => setMainImg(img)} ><img src={img} className="w-20 h-20 border border-gray-400  rounded-xl" alt="" /></li>
+                                                    <li key={index} onClick={() => setMainImg(img)} ><img src={img} className="w-20 h-20 border cursor-pointer border-gray-400  rounded-xl" alt="" /></li>
                                                 )
                                             })
                                         }

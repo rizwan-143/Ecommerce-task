@@ -81,7 +81,7 @@ function Header({handleSideCart}) {
                                         userDispatch({type : "LOGOUT"})
                                         localStorage.removeItem('currentUserLogin')
                                         window.location.reload()
-                                    }}>log out</li>
+                                    }} className="cursor-pointer">log out</li>
                                 </ul>
                             </div>
                         </div>
